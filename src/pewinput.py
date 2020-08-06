@@ -135,7 +135,7 @@ class Mouse(Device):
         if not name:
             name = 'pewinput-virtual-mouse'
         super(Mouse, self).__init__([BTN_LEFT, BTN_MIDDLE, BTN_RIGHT,
-                                     REL_X, REL_Y, REL_WHEEL], name)
+                                     REL_X, REL_Y, REL_WHEEL, REL_HWHEEL], name)
 
     def move_relative(self, x: int, y: int, flush: bool = True):
         self.send_event(REL_X, x, False)
@@ -143,6 +143,9 @@ class Mouse(Device):
 
     def move_wheel(self, value, flush: bool = True):
         self.send_event(REL_WHEEL, value, flush)
+
+    def move_hwheel(self, value, flush: bool = True):
+        self.send_event(REL_HWHEEL, value, flush)
 
 
 INPUT_PROP_POINTER = 0x00
