@@ -26,7 +26,6 @@ For now:
 ```
 git clone https://github.com/ssmid/pewinput
 cd pewinput
-./build.sh
 python3 setup.py install
 ```
 
