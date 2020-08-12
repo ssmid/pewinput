@@ -29,7 +29,7 @@ with open('README.md') as readme:
 
 setuptools.setup(
     name="pewinput-ssmid",
-    version='0.0.1',
+    version='1.0.0',
     author='ssmid@github',
     description='A library to emulate input devices on linux',
     long_description=long_description,
