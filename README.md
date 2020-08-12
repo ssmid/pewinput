@@ -2,6 +2,8 @@
 
 A python library to emulate input devices such as keyboard, mouse or joystick via the uinput linux kernel module.
 
+Motivation was the malfunction of mouse input in python-uinput with newer kernel versions.
+
 GitHub: https://github.com/ssmid/pewinput
 
 ## Example
