@@ -11,8 +11,8 @@ GitHub: https://github.com/ssmid/pewinput
 ``` Python3
 from pewinput import *
 
-keyboard = Device([KEY_T, KEY_E, KEY_S])
-for key in [KEY_T, KEY_E, KEY_S, KEY_T]:
+keyboard = Device([KEY_H, KEY_E, KEY_L, KEY_O])
+for key in [KEY_H, KEY_E, KEY_L, KEY_L, KEY_O]:
     keyboard.click(key)
 ```
 
@@ -21,10 +21,9 @@ For more details look into example.py.
 
 ## Installation
 
-Hopefully in the future:
-`pip install pewinput`
+`pip install git+https://github.com/ssmid/pewinput`
 
-For now:
+If that does not work for some reason:
 ```
 git clone https://github.com/ssmid/pewinput
 cd pewinput
