@@ -15,6 +15,7 @@ keyboard = Device([KEY_H, KEY_E, KEY_L, KEY_O])
 for key in [KEY_H, KEY_E, KEY_L, KEY_L, KEY_O]:
     keyboard.click(key)
 ```
+`hello`
 
 For more details look into example.py.
 
